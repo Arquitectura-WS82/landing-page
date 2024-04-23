@@ -588,7 +588,7 @@ section {
   color: #1acc8d;
 }
 
-.cta-section img{
+.cta-section img {
   height: 80px;
 }
 
@@ -621,6 +621,9 @@ section {
   overflow: hidden;
 }
 
+.team .member .pic > img {
+  height: 232px;
+}
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -642,7 +645,6 @@ section {
   bottom: 0;
   background: rgba(1, 3, 111, 0.8);
 }
-
 
 .testimonials .testimonial-item {
   text-align: center;
@@ -809,24 +811,24 @@ section {
   color: #fff;
 }
 
-.contact iframe{
+.contact iframe {
   position: relative;
   width: 100%;
   height: 100%;
   bottom: 8%;
 }
 @media (max-width: 1200px) {
-  .contact iframe{
+  .contact iframe {
     position: relative;
     top: 10%;
   }
-} 
+}
 
 .contact .php-email-form textarea {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #1acc8d;
   border: 0;
   padding: 10px 30px;
@@ -835,14 +837,13 @@ section {
   border-radius: 50px;
 }
 
-
 /* CTA Section */
 .cta-section {
   background: #0205a1;
   color: #1acc8d;
 }
 
-.cta-section img{
+.cta-section img {
   height: 80px;
 }
 
@@ -857,7 +858,6 @@ section {
     font-size: 2rem;
   }
 }
-
 
 /*--------------------------------------------------------------
 # Footer
@@ -896,7 +896,7 @@ section {
   color: #0205a1;
   line-height: 0;
 }
-.footer{
+.footer {
   background: #0205a1;
   color: #fff;
 }
